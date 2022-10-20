@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Box
+  - Platform
+  - GameOver
   layers:
   - Default
   - TransparentFX
@@ -38,6 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4169931121
+    locked: 0
+  - name: Platform/Player
+    uniqueID: 3512897293
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
