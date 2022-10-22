@@ -9,7 +9,7 @@ public class Share : MonoBehaviour
 
     public void ShareButton()
     {
-        int score = 10;
+        int score = 10; // Temporary Score before added score
         shareMessage = "I can't believe I climbed " + score.ToString() + " feet in BlockJumper!";
         StartCoroutine(TakeScreenshotAndShare());
     }
