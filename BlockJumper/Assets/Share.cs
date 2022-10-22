@@ -7,7 +7,7 @@ public class Share : MonoBehaviour
 {
     private string shareMessage;
 
-    public void ClickShareButton()
+    public void ShareButton()
     {
         int score = 10;
         shareMessage = "I can't believe I climbed " + score.ToString() + " feet in BlockJumper!";
@@ -21,10 +21,6 @@ public class Share : MonoBehaviour
         screenshot.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         screenshot.Apply();
 
-        string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
-        File.WriteAllBytes(filePath, screenshot.EncodeToPNG());
-
-        // To avoid memory leaks
         Destroy(screenshot);
 
         new NativeShare().AddFile(filePath)
