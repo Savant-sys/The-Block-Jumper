@@ -34,7 +34,7 @@ public class GameplayController : MonoBehaviour
     }
 
     void DetectInput() {
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButton(1)) {
             currentBox.DropBox();
         }
     }

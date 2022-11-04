@@ -5,7 +5,7 @@ using UnityEngine;
 public class BoxScript : MonoBehaviour
 {
 
-    private float min_X = -5.5f, max_X = 5.5f;
+    private float min_X = -4.5f, max_X = 4.5f;
 
     private bool canMove;
     private float move_Speed = 4f;
