@@ -3,19 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Box
+  - Platform
+  - Bird
+  - Coin
+  - Score
+  - Floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Character
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Box
+  - Bird
+  - Coins
+  - Score
+  - Floor
   - 
   - 
   - 
