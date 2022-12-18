@@ -10,6 +10,8 @@ Michael Khuri michaelkhuri@gmail.com
 
 Adam Harb adamharb1999@csu.fullerton.edu
 
+Sohail khan sk1511.bi@csu.fullerton.edu
+
 Application is accessible via this link: 
 https://evanjholsch.itch.io/blockjumper
 
