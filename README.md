@@ -1,5 +1,5 @@
 # The Block Jumper
-The game application is the survival game that the character is jumping on the platforms by tapping.
+The game application is the survival game that the character is jumping on the platforms by tapping on the game everywhere.
 
 # Overview
 Application is accessible via this link: 
